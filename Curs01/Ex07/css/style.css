@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+}
+
+@media (min-width: 502px) {
+  .box-1 {
+    background-color: green;
+  }
+}
+
+@media (max-width: 499px) {
+  .box-2 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
