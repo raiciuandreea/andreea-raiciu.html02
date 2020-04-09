@@ -5,11 +5,17 @@
     border: 1px solid #000;
 }
 
+.circles {
+    width: 802px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
 .square {
     width: 200px;
     height: 200px;
     border: 1px solid #000;
-    border-color: turquoise
+    border-color: turquoise;
 }
 
 .square-magenta {
@@ -28,4 +34,30 @@
     @extend .square;
 
     background-color: purple;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: peru;
+}
+
+.circle-red {
+    @extend .circle;
+
+    background-color: red;
+}
+
+.circle-green {
+    @extend .circle;
+
+    background-color: green;
+}
+
+.circle-blue {
+    @extend .circle;
+
+    background-color: blue;
 }
