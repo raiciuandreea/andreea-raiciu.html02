@@ -4,3 +4,28 @@
   margin: 16px 0;
 }
 
+$colors: (
+  "main": red,
+  "primary": blue,
+  "secondary": green,
+  "tertiary": yellow,
+  "neutral": grey
+);
+
+@each $colorName, $colorValues in $colors {
+  .btn-#{$colorName} {
+    color: $colorValues;
+  }
+}
+
+@each $colorName, $colorValues in $colors {
+  .btn-bg-#{$colorName} {
+    background-color: $colorValues;
+  }
+}
+
+@each $colorName, $colorValues in $colors {
+  .text-#{$colorName} {
+    color: $colorValues;
+  }
+}
