@@ -22,6 +22,7 @@ body {
   align-items: center;
   flex-basis: 75px;
   max-width: 75px; 
+  width: 75px;
   height: 75px; 
   flex-shrink: 1;
   border: 1px solid red; 
@@ -47,3 +48,36 @@ body {
   color: #fff;
 }
 /* do not touch this */
+
+.flex-container-01 {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-02 {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-container-03 {
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.flex-container-04 {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+.flex-container-05 {
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.flex-container-06 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: center;
+}

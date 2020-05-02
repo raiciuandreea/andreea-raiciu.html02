@@ -47,3 +47,68 @@ body {
   color: #fff;
 }
 /* do not touch this */
+
+.flex-container-01 {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.flex-container-01 .flex-item-02 {
+  flex-grow: 2;
+} 
+
+.flex-container-01 .flex-item-04 {
+  flex-grow: 1;
+}
+
+.flex-container-02 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flex-container-02 :nth-child(2) {
+  flex-grow: 1;
+}
+
+.flex-container-03 {
+  flex-direction: column-reverse;
+}
+
+#my-id-1 {
+  flex-grow: 2;
+}
+
+#my-id-3 {
+  flex-grow: 1;
+}
+
+.flex-container-04 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flex-container-04 :nth-child(2) {
+  flex-grow: 1;
+}
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.flex-container-05 div:nth-of-type(3) {
+  flex-grow: 2;
+}
+
+.flex-container-05 div:nth-of-type(4) {
+  flex-grow: 1;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flex-container-06 :last-child {
+  flex-grow: 1;
+}
