@@ -1,0 +1,57 @@
+.user-controls {
+
+  order: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+
+  h1 {
+    margin-right: 20px;
+  }
+
+  i {
+    display: flex;
+    width: 116px;
+    height: 18px;
+    margin-left: 37px;
+    color: $black;
+    margin: 0 10px;
+  }
+}
+
+.header-controls {
+  display: flex;
+  background-color: $grey-main;
+  width: 375px;
+  height: 50px;
+  align-items: center;
+  margin: 0;
+
+  .header-search {
+    width: 227px;
+    height: 30px;
+    text-align: center;
+    padding: 0;
+  }
+
+  i{
+    display: flex;
+    margin: 8px 14px 10px 200px;
+    display: contents;
+  }
+
+  .site-search {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $grey-main;
+    color: $white;
+  }
+
+  label {
+    color: $white;
+    font-size: 30px;
+    margin: 0 35px;
+  }
+}
